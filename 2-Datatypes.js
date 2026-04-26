@@ -7,3 +7,9 @@ iv. undefined- This is basically an empty box e.g let y = undefined and a real l
 To prevent the system from crashing the input is automatically filled and returns an undefined value to show that the property does not exist
 v. Null- This is a box that was intentionally emptied e.g let z = null.. null is mostly considered an object..its application can be in the form lets say the user clicked the clear button in the age field..My app sends the age: null to tell the database to delete the existing value
 */
+//e.g
+/*e.g i.*/ let age = 10;
+/*ii*/ let name = "John";
+/*iii*/ let isaddicted = false;
+/*iv*/ let y = undefined;
+/*v*/ let z = null;
