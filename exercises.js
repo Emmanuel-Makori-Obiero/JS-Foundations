@@ -7,13 +7,17 @@ const difference = n2 - n1;
 const product = n1 * n2;
 const Quotient = n2 / n1;
 console.log(difference);
+console.log(`The result of difference is ${difference}`);
 console.log(product);
+console.log("The result of product is " + product);
 console.log(Quotient);
+console.log("The result is " + Quotient);
 
 //QN 2
 //Find the remainder when 17 is divided by 5 and display the result.
 const remainder = 17 % 5;
 console.log(remainder);
+console.log(`The result is ${remainder}`);
 
 //QN 3
 /*Create a variable x with a value of 10. Add 5 to it using a shorthand operator, 
@@ -22,6 +26,7 @@ const x = 10;
 const add = x + 5;
 const final = add * 2;
 console.log(final);
+console.log(`The result is ${final}`);
 
 //QN 4
 /* Perform the following operations and display the results:
@@ -29,8 +34,8 @@ console.log(final);
    - A string "5" minus a number 2*/
 const work1 = "5" + 2;
 const work2 = "5" - 2;
-console.log(work1);
-console.log(work2);
+console.log(`The result of work1 is ${work1}`);
+console.log(`The result of work2 is ${work2}`);
 
 //QN 5
 /*Convert a string "100" into a number and display the result. 
@@ -49,8 +54,8 @@ let m = 5;
 let n = "5";
 let comp = 5 == "5";
 let comp2 = 5 === "5";
-console.log(comp);
-console.log(comp2);
+console.log(`The result of comp is ${comp}`);
+console.log(`The result of comp2 is ${comp2}`);
 
 //QN 7
 //Create variables for principal, rate, and time. Calculate the simple interest and display the result.
