@@ -65,3 +65,23 @@ let time = 5;
 const simpleinterest = principle * rate * time;
 console.log(simpleinterest);
 console.log(`The result is ${simpleinterest}`);
+
+//QN 8
+//Mobile airtime validation
+function validateAirtime(phoneNumber, amount, balance) {
+  if (phoneNumber.toString().length === 10) {
+    if (balance >= amount) {
+      console.log("Transaction successfull");
+      balance = balance - amount;
+      console.log(`balance is ${balance}`);
+      return balance;
+    } else {
+      console.log("Invalid Balance");
+    }
+  } else {
+    console.log("Enter correct phonenumber");
+  }
+}
+
+const airtime = validateAirtime(9012356783, 2000, 4000);
+console.log(airtime);
