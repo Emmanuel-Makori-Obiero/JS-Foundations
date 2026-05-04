@@ -85,3 +85,19 @@ function validateAirtime(phoneNumber, amount, balance) {
 
 const airtime = validateAirtime(9012356783, 2000, 4000);
 console.log(airtime);
+
+//Parking fee
+function parkingfee(hours) {
+  if (hours <= 2) {
+    fee = hours * 50;
+    console.log(`The fee is ${fee}`);
+    return fee;
+  } else {
+    fee = (hours - 2) * 30;
+    console.log(`The fee is ${fee}`);
+    return fee;
+  }
+}
+
+const totalfee = parkingfee(4);
+console.log(totalfee);
